@@ -1,0 +1,5 @@
+a net.Server object emits an event each time a peer connects to it; 
+a fs.ReadStream emits an event when the file is opened; 
+a stream emits an event whenever data is available to be read.
+All objects that emit events are instances of the EventEmitter class.
+These objects expose an eventEmitter.on() function that allows one or more functions to be attached to named events emitted by the object
